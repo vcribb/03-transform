@@ -57,6 +57,6 @@ def rotate(matrix, axis, theta):
         r = [[1, 0, 0, 0], [0, math.cos(t), math.sin(t), 0], [0, -1*math.sin(t), math.cos(t), 0], [0, 0, 0, 1]]
         matrix_mult(r, matrix)
     else:
-        r = [[-1*math.sin(t), 0, math.cos(t), 0], [0, 1, 0, 0], [math.cos(t), 0, math.sin(t), 0], [0, 0, 0, 1]]
+        r = [[math.cos(t), 0, 0, -1*math.sin(t)], [0, 1, 0, 0], [math.sin(t), 0, math.cos(t), 0], [0, 0, 0, 1]]
         matrix_mult(r, matrix)
     pass

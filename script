@@ -1,19 +1,35 @@
 line
-0 0 0 100 0 0
+0 0 0 50 25 0
 line
-100 0 0 100 100 0
+50 25 0 100 0 0
 line
-100 100 0 0 100 0
+100 0 0 75 50 0
 line
-0 100 0 0 0 0
+75 50 0 100 100 0
 line
-0 0 100 100 0 100
+100 100 0 50 75 0
 line
-100 0 100 100 100 100
+50 75 0 0 100 0
 line
-100 100 100 0 100 100
+0 100 0 25 50 0
 line
-0 100 100 0 0 100
+25 50 0 0 0 0
+line
+0 0 100 50 25 100
+line
+50 25 100 100 0 100
+line
+100 0 100 75 50 100
+line
+75 50 100 100 100 100
+line
+100 100 100 50 75 100
+line
+50 75 100 0 100 100
+line
+0 100 100 25 50 100
+line
+25 50 100 0 0 100
 line
 0 0 0 0 0 100
 line
@@ -22,20 +38,10 @@ line
 100 100 0 100 100 100
 line
 100 0 0 100 0 100
-save
-pic1.ppm
-ident
-scale
-2 2 2
-apply
-save
-pic2.ppm
 ident
 move
-100 100 0
+200 150 0
 apply
-save
-pic3.ppm
 ident
 rotate
 z 20
@@ -44,11 +50,9 @@ x 20
 rotate
 y 20
 apply
-save
-pic4.ppm
 ident
 rotate
 y 20
 apply
 save
-pic5.ppm
+pic.png

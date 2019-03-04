@@ -39,8 +39,7 @@ def parse_file(filename, edges, transform, screen, color):
             fname = file[index + 1]
             clear_screen(screen)
             draw_lines(edges, screen, color)
-            #save_extension(screen, fname)
-            save_ppm(screen, fname)
+            save_extension(screen, fname)
             index += 2
         else:
             pass
